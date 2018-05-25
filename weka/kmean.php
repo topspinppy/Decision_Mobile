@@ -1,0 +1,8 @@
+<?php
+$cmd = 'java -classpath "weka.jar" weka.clusterers.SimpleKMeans -N 4 -t "glass.arff"';
+exec($cmd,$output);
+for ($i=0;$i<sizeof($output);$i++)
+ { trim($output[$i]);
+ echo $output[$i]."<br>";
+ }
+?>

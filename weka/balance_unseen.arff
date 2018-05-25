@@ -1,0 +1,14 @@
+@relation balance-scale
+@attribute left-weight real
+@attribute left-distance real
+@attribute right-weight real
+@attribute right-distance real
+@attribute class { L, B, R}
+@data
+5,2,3,1,?
+4,1,1,2,?
+3,3,4,3,?
+5,1,1,4,?
+1,2,5,5,?
+2,4,3,3,?
+5,3,2,1,?

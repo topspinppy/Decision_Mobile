@@ -1,0 +1,23 @@
+@relation model_phone_csv
+
+@attribute sex {Male,Female}
+@attribute age {15-25year,>35year,26-35year}
+@attribute status {retirement,student,working}
+@attribute income {>10000,6000between10000,>3000}
+@attribute chat {>5hours,less3hoursperday,3betweenhoursperday}
+@attribute social {less3hoursperday,>5hours,3betweenhoursperday}
+@attribute streaming {>5hours,3betweenhoursperday,less3hoursperday}
+@attribute net {3betweenhoursperday,less3hoursperday,>5hours}
+@attribute email {less10issue,>20issueperday,10between20issueperday}
+@attribute game {>12hours,3between12hoursperday,less3hoursperday}
+@attribute wifi {Rarelyused,NotUsed,FrequencyUsed}
+@attribute Class {Month/Unlimited,Month/FUP,Day/Week,VolumeBased,Day/Month}
+
+@data
+
+Male,15-25year,retirement,>10000,>5hours,less3hoursperday,>5hours,3betweenhoursperday,less10issue,>12hours,Rarelyused,Month/Unlimited
+Female,>35year,student,6000between10000,less3hoursperday,>5hours,3betweenhoursperday,less3hoursperday,>20issueperday,3between12hoursperday,NotUsed,Month/FUP
+Male,26-35year,working,>3000,3betweenhoursperday,3betweenhoursperday,less3hoursperday,>5hours,10between20issueperday,less3hoursperday,FrequencyUsed,Day/Week
+Female,26-35year,working,>3000,3betweenhoursperday,3betweenhoursperday,less3hoursperday,>5hours,10between20issueperday,less3hoursperday,FrequencyUsed,VolumeBased
+Male,15-25year,working,>3000,3betweenhoursperday,3betweenhoursperday,less3hoursperday,>5hours,10between20issueperday,less3hoursperday,Rarelyused,Day/Month
+Female,>35year,working,>10000,less3hoursperday,>5hours,3betweenhoursperday,less3hoursperday,less10issue,less3hoursperday,FrequencyUsed,?

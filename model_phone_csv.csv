@@ -1,0 +1,7 @@
+sex,age,status,income,chat,social,streaming,net,email,game,wifi,Class
+Male,15-25year,retirement,>10000,>5hours,less3hoursperday,>5hours,3betweenhoursperday,less10issue,>12hours,Rarelyused,Month/Unlimited
+Female,>35year,student,6000between10000,less3hoursperday,>5hours,3betweenhoursperday,less3hoursperday,>20issueperday,3between12hoursperday,NotUsed,Month/FUP
+Male,26-35year,working,>3000,3betweenhoursperday,3betweenhoursperday,less3hoursperday,>5hours,10between20issueperday,less3hoursperday,FrequencyUsed,Day/Week
+Female,26-35year,working,>3000,3betweenhoursperday,3betweenhoursperday,less3hoursperday,>5hours,10between20issueperday,less3hoursperday,FrequencyUsed,VolumeBased
+Male,15-25year,working,>3000,3betweenhoursperday,3betweenhoursperday,less3hoursperday,>5hours,10between20issueperday,less3hoursperday,Rarelyused,Day/Month
+Female,>35year,working,>10000,less3hoursperday,>5hours,3betweenhoursperday,less3hoursperday,less10issue,less3hoursperday,FrequencyUsed,?
